@@ -1,0 +1,162 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.udruge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.udruge h1 {
+    letter-spacing: 3px;
+    margin-top: 105px;
+    color: #D35933;
+    text-align: center;
+}
+
+.udruge h2 {
+    letter-spacing: 3px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+.sortWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sortWrapper button {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #f59578;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sortWrapper button:hover {
+    background-color: #7a270e;
+}
+
+.modalAdd button,
+.udruge button {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #f59578;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalAdd button:hover,
+.udruge button:hover {
+    background-color: #7a270e;
+}
+
+.associationsWrapper {
+    max-width: 1500px;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+.association {
+    background-color: #d35833b3;
+    border-radius: 5px;
+    padding: 18px;
+    width: 300px;
+}
+
+.modalContentAdd {
+    background-color: #D35933;
+}
+
+.association h3 {
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.association p {
+    margin: 20px;
+}
+
+.association:last-child {
+    margin-bottom: 20px;
+}
+
+.sortBtn {
+    background-color: white;
+    color: #D35933;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.titleSecond {
+    color: white;
+    text-align: center;
+}
+
+.pendingAssociations .association h3 {
+    color: white;
+}
+
+.pendingAssociations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.approvalButtonsWrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.approvalBtn {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.approvalBtn:hover {
+    font-weight: bolder;
+}
+
+.accept {
+    color: white;
+}
+
+.accept:hover {
+    color: rgb(255, 244, 244);
+}
+
+.cancel {
+    color: #D35933;
+}
+
+.cancel:hover {
+    color: #a3310f;
+}

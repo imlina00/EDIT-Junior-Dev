@@ -1,0 +1,406 @@
+.volonteri h1 {
+    letter-spacing: 3px;
+    margin-top: 105px;
+    color: #D35933;
+    text-align: center;
+}
+
+.titleSecond {
+    color: white;
+    text-align: center;
+}
+
+.titleThird {
+    color: white;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.strong {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.volunteers {
+    margin-bottom: 100px;
+}
+
+.volunteer {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.volunteerImageContainer {
+    position: relative;
+}
+
+.volunteerImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.volunteerImage:hover {
+    transform: scale(1.1);
+}
+
+.volunteerName {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0 0 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121149a1;
+    z-index: 9999;
+}
+
+.modalContent {
+    position: absolute;
+    max-height: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D35933;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modalImage {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+}
+
+button {
+    background-color: #f6c4c8;
+    color: #18433b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #a42631;
+    color: white;
+}
+
+.filterWrapper button,
+.volonteri button {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #f59578;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filterWrapper button:hover,
+.volonteri button:hover {
+    background-color: #7a270e;
+}
+
+.volunteerWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0;
+    padding: 20px;
+}
+
+.volunteerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+.filterWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.selectWrapper {
+    margin: 20px;
+    width: 200px;
+}
+
+.selectWrapper select {
+    width: 60px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.checkboxWrapper {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filterWrapper select,
+.filterWrapper input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+.filterWrapper input[type="checkbox"],
+.formWrapperPopupAdd input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    ;
+    outline: none;
+    cursor: pointer;
+    vertical-align: -10px;
+    margin-right: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.filterWrapper input[type="checkbox"]:hover,
+.formWrapperPopupAdd input[type="checkbox"]:hover {
+    font-weight: bolder;
+    border: 2px solid white;
+    background-color: #D35933;
+
+}
+
+.filterWrapper input[type="checkbox"]:checked,
+.formWrapperPopupAdd input[type="checkbox"]:checked {
+    background-color: #7a270e;
+    border: 2px solid white;
+}
+
+.filterWrapper label {
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+}
+
+#search {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.addVolunteerBtn {
+    margin-bottom: 10px;
+}
+
+.modalAdd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.modalContentAdd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.modalContentAdd h2 {
+    letter-spacing: 3px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.close:hover {
+    font-weight: bold;
+}
+
+.formWrapperPopupAdd input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.formWrapperPopupAdd button {
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formWrapperPopupAdd button:hover {
+    background-color: pink;
+}
+
+.checkboxWrapperAdd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkboxWrapperAdd label {
+    color: white;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+.checkboxWrapperAdd input[type="checkbox"] {
+    vertical-align: -20px;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.deleteIcon:hover {
+    font-weight: bolder;
+    color: #D35933;
+}
+
+.deleteEditContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.uloge {
+    display: flex;
+    flex-direction: column;
+}
+
+.saveBtn {
+    margin: 10px;
+}
+
+.volunteer input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.filterWrapper select {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.volunteer select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.modalAdd select {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.volunteer input[type="checkbox"] {
+    width: 1px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f9f9;
+    color: #333;
+    vertical-align: -10px;
+}
+
+.checkboxWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkboxWrapper label {
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.checkboxWrapper input:checked {
+    background-color: red;
+    border: 2px solid blue;
+}
+
+.checkboxWrapper input:hover {
+    font-weight: bolder;
+    border: 2px solid green;
+}

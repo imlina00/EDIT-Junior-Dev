@@ -1,0 +1,258 @@
+{
+  "activities": [
+    {
+      "id": "2",
+      "name": "Čišćenje okoliša",
+      "description": "Očistimo našu prirodu, zaštitimo i čuvajmo naš planet, našu majku Zemlju!",
+      "organizer": "Udruga za zaštitu okoliša",
+      "location": "Dubrovnik, zgrada Udruge za zaštitu okoliša",
+      "date": "28.4.2024.",
+      "image": "https://blogstudio.s3.amazonaws.com/keep-it-wild-az/6383ed171597f4e877c3b4fbc66f0014.png",
+      "participants": [
+        {
+          "id": "0.12710975782827982",
+          "name": "Dundo Maroje"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pomoć starijim osobama",
+      "description": "Svi su oni nekada bili u našim godinama. Pomozimo starima i nemoćnima te u njihove dane unesimo vedar duh i izmamimo im osmijehe. Njima ne treba puno.",
+      "organizer": "Udruga za stare i nemoćne",
+      "location": "Sisak, prostorije USN-a",
+      "date": "01.07.2024.",
+      "image": "https://www.neighborlyhomecare.com/wp-content/uploads/2014/11/home-care-nurse-help-an-elderly-women.jpg",
+      "participants": [
+        {
+          "id": "0.6656988248533622",
+          "name": "Marinko Marulić"
+        },
+        {
+          "id": "0.5694867431527377",
+          "name": "Ljilja Ljubić"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Organiziranje humanitarnog koncerta",
+      "description": "Kako bismo prikupili novac za humanitarne svrhe, organizirajmo koncert na kojem ćemo od ulaznica prikupiti sredstva za to.",
+      "organizer": "Umjetničko društvo mladih",
+      "location": "Gripe, Split",
+      "date": "24.12.2024.",
+      "image": "https://media.istockphoto.com/id/1346027851/photo/music-band-preparing-for-the-concert.jpg?s=612x612&w=0&k=20&c=Hdw5TSw8fuMes8hIjJkl9auAafMP-b-5b9FZ3ohplR8=",
+      "participants": [
+        {
+          "id": "101",
+          "name": "Iva Mladić"
+        },
+        {
+          "id": "0.2730240605537433",
+          "name": "Mladen Ivić"
+        },
+        {
+          "id": "0.5870200421183598",
+          "name": "Antonela Mikulić"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pravljenje hrane za beskućnike",
+      "description": "Kako bismo pomogli najpotrebnijima, okupimo se i omogućimo im barem hranu.",
+      "organizer": "Kuhari grada Zagreba",
+      "location": "Pučka kuhinja, Zagreb",
+      "date": "17.10.2024.",
+      "image": "https://www.odt.co.nz/sites/default/files/styles/odt_portrait_medium_3_4/public/story/2020/04/q-basketsofblessing1_2.jpg?itok=6DZavzLN",
+      "participants": []
+    }
+  ],
+  "cities": [
+    {
+      "id": "1",
+      "name": "Zagreb"
+    },
+    {
+      "id": "2",
+      "name": "Rijeka"
+    },
+    {
+      "id": "3",
+      "name": "Osijek"
+    },
+    {
+      "id": "4",
+      "name": "Split"
+    },
+    {
+      "id": "5",
+      "name": "Varaždin"
+    },
+    {
+      "id": "6",
+      "name": "Dubrovnik"
+    },
+    {
+      "id": "7",
+      "name": "Makarska"
+    },
+    {
+      "id": "8",
+      "name": "Požega"
+    },
+    {
+      "id": "9",
+      "name": "Imotski"
+    },
+    {
+      "id": "10",
+      "name": "Virovitica"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "1",
+      "name": "Ekologija"
+    },
+    {
+      "id": "2",
+      "name": "Stari i nemoćni"
+    },
+    {
+      "id": "3",
+      "name": "Hrana"
+    },
+    {
+      "id": "4",
+      "name": "Razno"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "1",
+      "name": "Ana Petrović",
+      "city": "Zagreb",
+      "occupation": [
+        "Hrana",
+        "Razno"
+      ],
+      "image": "https://qph.cf2.quoracdn.net/main-thumb-2521146456-200-tdvfwwhldlihxtxrknhsmrfqqwnoqrlb.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Luka Matić",
+      "city": "Virovitica",
+      "occupation": [
+        "Stari i nemoćni"
+      ],
+      "image": "https://scrimba.com/avatars/uid/u42kLRTV/256"
+    },
+    {
+      "id": "3",
+      "name": "Tomislav Milić",
+      "city": "Makarska",
+      "occupation": [
+        "Ekologija",
+        "Stari i nemoćni"
+      ],
+      "image": "https://secure.gravatar.com/avatar/88af15dd91b81c11e74b9c71a2fce083?s=256&d=blank&r=g"
+    },
+    {
+      "id": "4",
+      "name": "Marta Babić",
+      "city": "Osijek",
+      "occupation": [
+        "Ekologija",
+        "Hrana"
+      ],
+      "image": "https://uploads-ssl.webflow.com/5e2cd815d2e06706e3ac41a2/62fe7aeefc5fc342b3b02ca8_Facetune_11-06-2022-01-06-00.JPG"
+    },
+    {
+      "id": "5",
+      "name": "Ivan Pavlović",
+      "city": "Rijeka",
+      "occupation": [
+        "Razno"
+      ],
+      "image": "https://styles.redditmedia.com/t5_7xjv75/styles/profileIcon_pensrzlvbuia1.jpg?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=0120ddda1a6d310c1d0572b21c2594dd3594e3c8"
+    },
+    {
+      "id": "6",
+      "name": "Josipa Meštrović",
+      "city": "Trilj",
+      "occupation": [
+        "Hrana"
+      ],
+      "image": "https://wl-brightside.cf.tsp.li/resize/256x256/jpeg/cce/652/5cfa2d5045bf6a8976615d1672.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Martina Šimunović",
+      "city": "Zagreb",
+      "occupation": [
+        "Hrana",
+        "Ekologija",
+        "Stari i nemoćni",
+        "Razno"
+      ],
+      "image": "https://lh3.googleusercontent.com/a-/AOh14GgusvL7zKsZNJpSAzCuKP8JrBZ0dMUBvH5RwVNjww"
+    },
+    {
+      "id": "8",
+      "name": "Ivona Matić",
+      "city": "Split",
+      "occupation": [
+        "Hrana",
+        "Stari i nemoćni"
+      ],
+      "image": "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_256,pg_1,t_base_params,w_256/v1691402637/avatars/012/959/795/12959795-original.jpg?1691402637"
+    }
+  ],
+  "associations": [
+    {
+      "id": "1",
+      "name": "Hrabra srca",
+      "address": "Ruđera Boškovića 3",
+      "city": "Split",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "name": "Mali lavovi",
+      "address": "Ulica kralja Zvonimira 14",
+      "city": "Osijek",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "name": "Djeca sunca",
+      "address": "Pulska ulica 55",
+      "city": "Pula",
+      "status": "approved"
+    },
+    {
+      "id": "4",
+      "name": "Anđeli čuvari",
+      "address": "Trg anđela čuvara 23",
+      "city": "Dubrovnik",
+      "status": "approved"
+    },
+    {
+      "id": "f1bc",
+      "name": "Udruga Svjetlost",
+      "address": "Ulica svjetla 24",
+      "city": "Zagreb",
+      "status": "pending",
+      "isAdmin": false
+    },
+    {
+      "id": "f8fe",
+      "name": "Djeca vesela",
+      "address": "Spinutska ulica 37",
+      "city": "Split",
+      "status": "pending",
+      "isAdmin": false
+    }
+  ]
+}

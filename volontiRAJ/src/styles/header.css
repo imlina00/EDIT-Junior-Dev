@@ -1,0 +1,94 @@
+.navigationWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+}
+  
+.navigationBar {
+    background-color: #121149;
+    padding: 25px 0;
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    z-index: 1000; 
+    flex-shrink: 0;
+}
+  
+.navigationLinks {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+  
+.navigationLinks li {
+    margin-right: 75px; 
+    font-size: larger;
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+}
+  
+.navigationLinks li:last-child {
+    margin-right: 0;
+}
+  
+.navigationLinks li a {
+    text-decoration: none;
+    color:  white;
+    font-weight: lighter;
+    transition: color 0.3s ease;
+}
+  
+.navigationLinks li a.active {
+    font-weight: bolder;
+    color: #D35933;
+}
+  
+.navigationLinks li a:not(.active):hover {
+    color: #D35933;
+    font-weight: normal;
+}
+
+.adminCheckbox {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.adminLabel {
+    color:  white;
+    font-weight: lighter;
+}
+
+.adminCheckbox label {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.adminCheckbox label:hover {
+    color: #D35933;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #D35933;
+    border-radius: 5px;;
+    outline: none;
+    cursor: pointer;
+    vertical-align: -2px;
+    margin-right: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #D35933;
+}
